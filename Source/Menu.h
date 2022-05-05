@@ -11,7 +11,6 @@ public:
 private:
 	sf::RenderWindow window;
 	std::vector<sf::Sprite> sprites;
-	std::vector<sf::Texture> textures;
 
 	System* ptr_sys;
 };
